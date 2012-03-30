@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, ZubonOrDie!</string>
+	<string name="app_name">ZubonOrDie</string>
+	<string name="Q3Button">3 questions</string>
+	<string name="Q5Button">5 questions</string>
+	<string name="Q10Button">10 questions</string>
+	<string name="QInfiniteButton">No End</string>
+	<string name="GoGalleryButton">Go to Gallery</string>
+	<string name="TextViewResultCorrect">Correct!</string>
+	<string name="TextViewResultIncorrect">Incorrect!</string>
+	<string name="TextViewResultVacant">
+	</string>
+
+	<string name="SuccessDialogTitle">You are success!</string>
+	<string name="FailureDialogTitle">You failed.</string>
+	<string name="SuccessDialogMessage">Success!</string>
+	<string name="FailureDialogMessage">Failure!</string>
+	<string name="FailureDialogCloseButton">Close</string>
+
+
+</resources>

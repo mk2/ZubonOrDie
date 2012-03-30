@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" android:layout_width="fill_parent"
+	android:orientation="horizontal" android:gravity="center">
+	<ImageButton android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:minWidth="50px"
+		android:id="@+id/GalleryBackImageButton" android:src="@drawable/icon30_48x48"></ImageButton>
+	<LinearLayout android:id="@+id/LinearLayout01"
+		android:minWidth="210px" android:layout_height="fill_parent"
+		android:layout_width="wrap_content" android:orientation="vertical"
+		android:gravity="top">
+		<TextView android:text="@+id/TextView01"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:id="@+id/GalleryImageTitle" android:layout_marginBottom="10px"></TextView>
+		<ImageView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:minWidth="200px"
+			android:minHeight="200px" android:layout_marginBottom="10px"
+			android:id="@+id/GalleryZubonImageView"></ImageView>
+		<TextView android:text="@+id/TextView02"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:id="@+id/GalleryImageDescription"></TextView>
+	</LinearLayout>
+	<ImageButton android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:minWidth="50px"
+		android:id="@+id/GalleryNextImageButton" android:src="@drawable/icon31_48x48"></ImageButton>
+</LinearLayout>

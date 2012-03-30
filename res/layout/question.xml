@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" android:layout_width="fill_parent"
+	android:gravity="center" android:orientation="vertical">
+	<TextView android:text="@+id/TextView01" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_marginBottom="20px"
+		android:id="@+id/TextViewResult"></TextView>
+	<ImageView android:id="@+id/ImageViewTop"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:minHeight="100px" android:minWidth="100px"
+		android:layout_marginBottom="20px"></ImageView>
+	<ImageView android:id="@+id/ImageViewBottom"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:minHeight="100px" android:minWidth="100px"
+		android:layout_marginBottom="20px"></ImageView>
+	<Chronometer android:text="@+id/Chronometer01"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:id="@+id/ElapsedTimeMeter"></Chronometer>
+</LinearLayout>

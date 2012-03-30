@@ -1,0 +1,6 @@
+name.ja = 赤い魔乳
+description.ja = その赤い血のようなズボンは、3倍の速さでズボンを着脱できるという。
+pattern.0 = zubon_charlotte1.jpg
+pattern.1 = zubon_charlotte2.jpg
+probability.0 = 50
+probability.1 = 50

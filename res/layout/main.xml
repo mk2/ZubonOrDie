@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:gravity="center" android:orientation="vertical">
+
+	<ImageView android:id="@+id/ImageView01"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/title"></ImageView>
+	<TextView android:text="@+id/TextViewZubonPower"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_marginBottom="5px" android:id="@+id/TextViewZubonPower"></TextView>
+	<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/Q3Button"
+		android:text="@string/Q3Button" android:width="200px"
+		android:layout_marginBottom="5px"></Button>
+	<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/Q5Button"
+		android:text="@string/Q5Button" android:width="200px"
+		android:layout_marginBottom="5px"></Button>
+	<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/Q10Button"
+		android:text="@string/Q10Button" android:width="200px"
+		android:layout_marginBottom="5px"></Button>
+	<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:width="200px"
+		android:id="@+id/QInfiniteButton" android:text="@string/QInfiniteButton"
+		android:layout_marginBottom="5px"></Button>
+	<Button android:text="@string/GoGalleryButton" android:id="@+id/GoGalleryButton"
+		android:width="200px" android:layout_width="wrap_content"
+		android:layout_height="wrap_content"></Button>
+
+
+</LinearLayout>
